@@ -1,0 +1,22 @@
+{
+    "name": "usuraio/taller2",
+    "description": "Taller 2 PHP",
+    "autoload": {
+        "psr-4": {
+            "Usuraio\\Taller2\\": "src/",
+            "Taller2\\Controllers\\": "src/Controllers/",
+            "Taller2\\Models\\": "src/Models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JuanjoGabelo",
+            "email": "juan.gabelo27217@ucaldas.edu.co"
+        }
+    ],
+    "require": {
+        "egulias/email-validator": "^4.0",
+        "tecnickcom/tcpdf": "^6.7",
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}
